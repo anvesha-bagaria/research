@@ -1,0 +1,83 @@
+a{
+	text-decoration: none;
+	display:block;
+	color:#365c5a;
+}
+a:hover{
+	color:#2c4066;
+}
+.notice{
+	width:250px;
+	float:right;
+}
+.notice marquee{
+	height: 400px;
+}
+/*------------------------------SIDEBAR------------------------------------*/
+
+#sidebar{
+	margin-left:80px;
+	margin-top: 40px;
+	width:225px;
+	margin-right: 20px;
+	background-color:#f2f2f2;
+	-webkit-box-shadow: 6px 10px 5px 3px rgba(224,220,224,1);
+	-moz-box-shadow: 6px 10px 5px 3px rgba(224,220,224,1);
+	box-shadow: 6px 10px 5px 3px rgba(224,220,224,1);
+	max-height: 500px;
+
+
+}
+#sidebar .options{
+	padding-top:13px;
+	height:40px;
+	padding-left:20px;
+	font-size: 18px;
+	color:#365c5a;
+}
+#sidebar #sidebar_header{
+	margin-top:-20px;
+	height: 53px;
+	width: 225px;
+	color:#ffffff;
+	background-color: #2c4066;
+}
+#sidebar #sidebar_header h3{
+	padding-top:15px;
+	margin-left:20px;
+}
+
+#sidebar .options:hover{
+	background-color: #d9d9d9;
+	
+}
+#sidebar .options:hover > #sidebar .options a{
+	color:black;
+}
+#sidebar .options a{
+	display:block;
+	text-decoration: none;
+
+}
+#sidebar .options a:visited{
+	color:#365c5a;
+}
+#contents{
+	color: #365c5a;
+}
+.body_title{
+	padding-bottom:4px;
+	border-bottom: solid #365c5a 2px;
+}
+.links{
+	margin-top: 5%;
+}
+th{
+	background-color: #2c4066;
+	color:#ffffff;
+}
+td a:hover{
+	background-color: #2c4066;
+	color:#FFFFFF;
+}
+
